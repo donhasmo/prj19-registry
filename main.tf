@@ -11,7 +11,7 @@ provider "aws" {
 }
 
 module "prj19" {
-  source  = "app.terraform.io/ATech/prj19/aws"
+  source  = "donhasmo/terraform-aws-prj19"
   name   = var.name
   region = var.region
   prefix = var.prefix
